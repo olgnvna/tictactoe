@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffc7d6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: transparent; 
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Kablammo", system-ui;
+    letter-spacing: 2px;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+.logo:hover {
+    text-decoration: none; 
+}
+
+
+h1 {
+    color: #ffffff;
+    font-size: 70px;
+    font-family: "Kablammo", system-ui;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+    max-width: 400px; 
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+label {
+    font-size: 18px;
+    color: #9a9a9a;
+    text-align: left;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+}
+
+input:focus {
+    border-color: #ffc7d6;
+    outline: none;
+}
+
+button {
+    font-size: 18px;
+    padding: 12px 20px;
+    background-color: #ffc7d6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Kablammo", system-ui;
+    letter-spacing: 2px;
+}
+
+button:hover {
+    background-color: #e0a9c0;
+}
+
+p {
+    color: #9a9a9a;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+}
+
+a {
+    color: #ffc7d6;
+    text-decoration: none;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: underline;
+}
